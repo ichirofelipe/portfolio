@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.text{
+    &--white{
+        color: map-get($colors, 'white');
+    }
+    &--dark{
+        color: map-get($colors, 'dark');
+    }
+}
+
+.description{
+    margin: 0;
+    display: block;
+
+    &--sm{
+        font-size: 12px;
+    }
+}

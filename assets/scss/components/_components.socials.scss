@@ -1,0 +1,17 @@
+.socials {
+    width: 500px;
+    max-width: 50vw;
+    background-color: lighten(map-get($colors, "base"), 10%);
+    position: absolute;
+    top: 0;
+    right: 1.25rem;
+    height: map-get($sizes, "banner");
+    overflow: hidden;
+}
+
+.me {
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    left: -4%;
+}
