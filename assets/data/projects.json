@@ -1,0 +1,34 @@
+{
+    "projectLinks": [
+        {
+            "image": "/projects/slot.png",
+            "title": "ROCK CLIMBER",
+            "description": "This is a simple slot machine that uses a basic RTP that I created myself",
+            "technologies": ["TS", "PIXI.JS"]
+        },
+        {
+            "image": "/projects/plinko.png",
+            "title": "PLINKO",
+            "description": "This is a simple plinko game where I was exploring collisions and gravity (basic physics)",
+            "technologies": ["TS", "PIXI.JS"]
+        },
+        {
+            "image": "/projects/blp1.png",
+            "title": "LANDING PAGE",
+            "description": "This is a very simple landing page converted from PSD to HTML within 2 hours (not responsive)",
+            "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+            "image": "/projects/omg.jpg",
+            "title": "Online Mini Games (OMG)",
+            "description": "This is a betting game website it has multiple mini games with a public chat room according to your server",
+            "technologies": ["EJS", "SCSS", "JS", "NODE", "MSSQL"]
+        },
+        {
+            "image": "/projects/oceanstory.jpg",
+            "title": "Ocean Story",
+            "description": "This is slot game combined with plinko game",
+            "technologies": ["TS", "PIXI.JS"]
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 <template>
     <div class="banner flex items-center">
         
-        <div class="banner_greeting flex flex-col">
-            <h1 class="text-8xl mb-10">Nice to meet you!<br>
+        <div class="banner-greeting flex flex-col">
+            <h1 class="text-8xl mb-20 font-bold">Nice to meet you!<br>
                 I'm 
                 <span class="highlighted">Ichiro Felipe.</span>
             </h1>

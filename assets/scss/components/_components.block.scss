@@ -1,0 +1,45 @@
+$animation-speed: .3s;
+
+.block{
+    
+    &-image {
+        border-radius: 5px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+
+        &:hover img{
+            filter: saturate(40%);
+            transform: scale(120%);
+        }
+
+        p {
+            width: 70%;
+        }
+    }
+
+    &-description {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        opacity: 0;
+        background: transparentize($color: #000000, $amount: 0.2);
+        transition: $animation-speed;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: $animation-speed;
+    }
+
+}
