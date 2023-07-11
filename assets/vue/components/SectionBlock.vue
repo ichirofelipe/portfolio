@@ -1,5 +1,5 @@
 <template>
-    <div class="section-container py-14">
+    <div class="section-container relative py-14">
         <div class="block-header mb-14">
             <h3 class="text-5xl font-bold">{{ title }}</h3>
         </div>
@@ -12,6 +12,14 @@
                 :description="block.description"
                 :technologies="block.technologies"
             />
+        </div>
+
+        <div class="floating-shapes floating-shapes--circle right bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
 </template>

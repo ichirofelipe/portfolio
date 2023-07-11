@@ -1,0 +1,41 @@
+$cicleWidth: 450px;
+
+.floating-shapes{
+    position: absolute;
+    z-index: -1;
+
+    &--circle{
+        width: $cicleWidth;
+        height: 100px;
+        top: 30%;
+        transform: translate(0, -50%);
+        left: -(($cicleWidth)/2 + 100px);
+
+        &.right {
+            left: unset;
+            right: -(($cicleWidth)/2 + 100px);
+        }
+
+        &.bottom {
+            top: unset;
+            bottom: 30%;
+        }
+
+        span{
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 2px solid lighten(map-get($colors, "base"), 15%);
+            border-radius: 100%;
+            transform: rotateX(40deg);
+        }
+        @for $i from 1 through 4 {
+            span:nth-child(#{$i}) {
+              top: 8px * $i;
+            }
+        }
+        
+
+    }
+}

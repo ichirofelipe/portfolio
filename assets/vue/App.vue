@@ -3,6 +3,7 @@
         <div>
             <Header />
             <Content />
+            
         </div>
         <Footer />
     </div>

@@ -5,3 +5,7 @@
     background-color: map-get($colors, "base");
     color: #fff;
 }
+
+html, body {
+    overflow-x: hidden;
+}

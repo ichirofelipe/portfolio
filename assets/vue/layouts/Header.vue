@@ -5,13 +5,13 @@
     </a>
 
     <div class="socials flex items-baseline space-x-6 p-5 justify-end">
-      <a href="">
+      <a href="https://github.com/ichirofelipe" target="_blank">
         <font-awesome-icon icon="fa-brands fa-github-alt" class="text-3xl text-white" />
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/ichiro-tanaka-b0188819b/" target="_blank">
         <font-awesome-icon icon="fa-brands fa-linkedin" class="text-3xl text-white" />
       </a>
-      <a href="">
+      <a href="https://www.facebook.com/ichiwoah16/" target="_blank">
         <font-awesome-icon icon="fa-brands fa-facebook" class="text-3xl text-white" />
       </a>
 

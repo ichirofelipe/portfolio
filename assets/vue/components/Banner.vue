@@ -1,5 +1,13 @@
 <template>
-    <div class="banner flex items-center">
+    <div class="banner flex items-center relative">
+
+        <div class="floating-shapes floating-shapes--circle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         
         <div class="banner-greeting flex flex-col">
             <h1 class="text-8xl mb-20 font-bold">Nice to meet you!<br>

@@ -14,3 +14,9 @@
         background-color: map-get($colors, "base");
     }
 }
+
+@mixin fullWidth {
+    width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    max-width: none !important;
+}
