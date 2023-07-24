@@ -1,10 +1,11 @@
 <template>
     <div class="p-5">
-
+        
         <Banner />
         <SectionBlock 
             title="Projects" 
             :blocks="projectLinks"/>
+
 
     </div>
 </template>

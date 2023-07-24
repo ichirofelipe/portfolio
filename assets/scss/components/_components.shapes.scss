@@ -3,11 +3,12 @@ $cicleWidth: 450px;
 .floating-shapes{
     position: absolute;
     z-index: -1;
+    pointer-events: none;
 
     &--circle{
         width: $cicleWidth;
         height: 100px;
-        top: 30%;
+        top: 20%;
         transform: translate(0, -50%);
         left: -(($cicleWidth)/2 + 100px);
 
@@ -18,7 +19,7 @@ $cicleWidth: 450px;
 
         &.bottom {
             top: unset;
-            bottom: 30%;
+            bottom: 20%;
         }
 
         span{

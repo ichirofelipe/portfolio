@@ -1,6 +1,6 @@
 <template>
     <footer class="mx-auto container">
-        &copy; 2023 Ichiro Felipe. All rights reserved.
+        &copy; 2023 Ichiro. All rights reserved.
     </footer>
 </template>
 
