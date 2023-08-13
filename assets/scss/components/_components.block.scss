@@ -8,6 +8,11 @@ $animation-speed: .3s;
         overflow: hidden;
         position: relative;
 
+        @media only screen and (max-width: $breakpoint-md - 1) {
+            aspect-ratio: 1 / 1;
+            height: auto;
+        }
+
         &:hover img{
             filter: saturate(40%);
             transform: scale(120%);
