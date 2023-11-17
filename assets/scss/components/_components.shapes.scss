@@ -10,7 +10,11 @@ $cicleWidth: 450px;
         height: 100px;
         top: 20%;
         transform: translate(0, -50%);
-        left: -(($cicleWidth)/2 + 100px);
+        
+        &.left {
+            right: unset;
+            left: -(($cicleWidth)/2 + 100px);
+        }
 
         &.right {
             left: unset;
@@ -20,6 +24,30 @@ $cicleWidth: 450px;
         &.bottom {
             top: unset;
             bottom: 20%;
+        }
+
+        &.top {
+            top: 20%;
+            bottom: unset;
+        }
+
+        &.animate {
+            left: 25%;
+            width: 800px;
+            height: 800px;
+            background-color: #fff;
+            opacity: 0.05;
+            transform: translate(-50%, -50%) rotateX(180deg);
+            animation: galaxy infinite 20s ease-in-out;
+            border-radius: 100%;
+            box-shadow:
+            0 0 60px 30px #fff,  /* inner white */
+            0 0 100px 60px #f0f, /* middle magenta */
+            0 0 140px 90px #0ff; /* outer cyan */
+
+            span {
+                border: none;
+            }
         }
 
         span{
@@ -38,5 +66,12 @@ $cicleWidth: 450px;
         }
         
 
+    }
+
+    &--blue {
+
+        span {
+            border-color: lighten(map-get($colors, "baseblue"), 15%);
+        }
     }
 }

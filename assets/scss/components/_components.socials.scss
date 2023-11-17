@@ -7,7 +7,7 @@
     right: 1.25rem;
     height: map-get($sizes, "banner");
     overflow: hidden;
-    background-color: lighten(map-get($colors, "base"), 10%);
+    background-color: darken(map-get($colors, "baseblue"), 15%);
 
     @media only screen and (max-width: $breakpoint-lg - 1) {
         position: fixed;

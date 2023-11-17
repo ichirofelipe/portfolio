@@ -7,7 +7,8 @@ import '@public/css/tailwind.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faGithubAlt, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons'
-library.add(faGithubAlt,faLinkedin, faFacebook)
+import { faFileCsv } from '@fortawesome/free-solid-svg-icons';
+library.add(faGithubAlt,faLinkedin, faFacebook, faFileCsv)
 
 //ROUTES
 import { createRouter, createWebHashHistory } from "vue-router";

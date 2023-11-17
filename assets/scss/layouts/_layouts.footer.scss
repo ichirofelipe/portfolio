@@ -1,5 +1,5 @@
 footer{
-    border-top: 3px solid lighten(map-get($colors, "base"), 10%);
+    border-top: 3px solid lighten(map-get($colors, "baseblue"), 10%);
     text-align: center;
     padding: 15px 0;
     @include fullWidth;

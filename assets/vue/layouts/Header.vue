@@ -16,6 +16,9 @@
         <a href="https://www.facebook.com/ichiwoah16/" target="_blank">
           <font-awesome-icon icon="fa-brands fa-facebook" class="text-3xl text-white" />
         </a>
+        <a :href="filePath" download>
+          <font-awesome-icon icon="fa-solid fa-file-csv" class="text-3xl text-white" />
+        </a>
 
         <img class="me lg:block hidden" :src="me" alt="Ichiro">
       </div>
@@ -31,7 +34,8 @@ export default {
     data() {
       return {
         me: me,
-        isMobile: true
+        isMobile: true,
+        filePath: require("@assets/files/ichiro_resume.pdf").default
       }
     },
     mounted() {

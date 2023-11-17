@@ -1,0 +1,25 @@
+@keyframes galaxy {
+    0% {
+        width: 800px;
+        height: 800px;
+        transform: translate(-50%, -50%) rotateX(0) rotateY(180deg);
+    }
+
+    40% {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotateX(90deg) rotateY(0);
+    }
+
+    60% {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotateX(90deg) rotateY(0);
+    }
+
+    100% {
+        width: 800px;
+        height: 800px;
+        transform: translate(-50%, -50%) rotateX(0) rotateY(180deg);
+    }
+}
